@@ -1,3 +1,13 @@
+function showNeuro() {
+    document.querySelector(".search-card").scrollIntoView({
+        behavior: "smooth"
+    });
+
+    document.getElementById("searchInput").focus();
+}
+
+
+
 const searchInput = document.getElementById("searchInput");
 const searchButton = document.getElementById("searchButton");
 const results = document.getElementById("results");
