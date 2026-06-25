@@ -1,33 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>TILTS Neuro Pilot</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TILTS - Theatre Instrument Location & Tracking System</title>
+
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+
+<header class="header">
   <h1>TILTS</h1>
   <p>Theatre Instrument Location & Tracking System</p>
-  <input id="search" placeholder="Search instrument..." onkeyup="searchItems()">
-  <div id="results"></div>
+</header>
 
-<script>
-const data = [
-  {name:"Adson Hook", shelf:"7", location:"56"},
-  {name:"Bayonet Forceps Toothed", shelf:"7", location:"58"},
-  {name:"Brain Retractors Malleables", shelf:"7", location:"57"},
-  {name:"Williams Discectomy Retractor Set", shelf:"7", location:"78"},
-  {name:"Yasargil Tumor Forceps", shelf:"7", location:"64"}
-];
+<main class="container">
 
-function searchItems() {
-  const q = document.getElementById("search").value.toLowerCase();
-  const results = data.filter(item => item.name.toLowerCase().includes(q));
-  document.getElementById("results").innerHTML = results.map(item =>
-    `<p><b>${item.name}</b><br>Shelf: ${item.shelf}<br>Location: ${item.location}</p>`
-  ).join("");
-}
+  <div class="search-card">
+    <h2>Neuro Instrument Search</h2>
 
-searchItems();
-</script>
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Search tray, instrument, shelf or location..."
+    />
+  </div>
+
+  <div id="results" class="results"></div>
+
+</main>
+
+<script src="database.js"></script>
+<script src="app.js"></script>
+
 </body>
 </html>
