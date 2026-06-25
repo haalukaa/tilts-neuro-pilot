@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neurology - TILTS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="hero">
+  <h1>Neurology</h1>
+  <p>Search Neuro instruments, trays, shelves and locations</p>
+</header>
+
+<main class="container">
+
+  <a href="index.html" class="back-link">← Back to Dashboard</a>
+
+  <section class="search-card">
+    <h2>Neuro Instrument Search</h2>
+
+    <div class="search-row">
+      <input id="searchInput" type="text" placeholder="Search Neuro instrument..." />
+      <button id="searchButton">Search</button>
+    </div>
+  </section>
+
+  <section id="results" class="results"></section>
+
+</main>
+
+<script src="database.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
