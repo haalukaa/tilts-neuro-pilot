@@ -3,34 +3,37 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TILTS - Theatre Instrument Location & Tracking System</title>
-
+  <title>TILTS</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
-<header class="header">
+<header class="hero">
   <h1>TILTS</h1>
   <p>Theatre Instrument Location & Tracking System</p>
 </header>
 
 <main class="container">
 
-  <div class="search-card">
+  <section class="dashboard">
+    <div class="tile neuro">🧠<h3>Neurology</h3><p>Neuro instruments</p></div>
+    <div class="tile general">🔪<h3>General Surgery</h3><p>General instruments</p></div>
+    <div class="tile plastic">🧑‍⚕️<h3>Plastic Surgery</h3><p>Plastic trays</p></div>
+    <div class="tile eyes">👁️<h3>Eyes</h3><p>Ophthalmology</p></div>
+    <div class="tile ent">👂<h3>ENT</h3><p>Ear, nose & throat</p></div>
+    <div class="tile ortho">🦴<h3>Orthopedic</h3><p>Bone instruments</p></div>
+    <div class="tile trays">📦<h3>All Trays</h3><p>Tray locations</p></div>
+  </section>
+
+  <section class="search-card">
     <h2>Neuro Instrument Search</h2>
-
     <div class="search-row">
-  <input
-    type="text"
-    id="searchInput"
-    placeholder="Search tray, instrument, shelf or location..."
-  />
-  <button id="searchButton">Search</button>
-</div>
-  </div>
+      <input id="searchInput" type="text" placeholder="Search tray, instrument, shelf or location..." />
+      <button id="searchButton">Search</button>
+    </div>
+  </section>
 
-  <div id="results" class="results"></div>
+  <section id="results" class="results"></section>
 
 </main>
 
