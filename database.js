@@ -78,4 +78,4 @@ const instruments = [
 {"id":"NEU-0077","name":"Forceps Non-Toothed Yasargil","specialty":"Neuro-Surgical Equipment","shelf":"7","location":"59","area":"Main Neuro Shelves","status":"Available"},
 {"id":"NEU-0078","name":"Forceps Non-Toothed Micro","specialty":"Neuro-Surgical Equipment","shelf":"8","location":"64","area":"Main Neuro Shelves","status":"Available"},
 {"id":"NEU-0079","name":"Forceps Toothed Adson","specialty":"Neuro-Surgical Equipment","shelf":"7","location":"58","area":"Main Neuro Shelves","status":"Available"},
-{"id":"NEU-0080","name":"Forceps Toothed Bayonet","specialty":"Neuro-Surgical Equipment","shelf":"7","location":"58","area":"Main Neuro Shelves","status":"Available"},
+{"id":"NEU-0080","name":"Forceps Toothed Bayonet","specialty":"Neuro-Surgical Equipment","shelf":"7","location":"58","area":"Main Neuro Shelves","status":"Available"},]
