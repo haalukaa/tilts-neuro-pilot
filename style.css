@@ -144,7 +144,7 @@ body{
   border-radius:16px;
   padding:15px;
   display:grid;
-  grid-template-columns:46px 1fr 24px;
+  grid-template-columns:70px 1fr 24px;
   align-items:center;
   gap:14px;
   text-decoration:none;
@@ -162,22 +162,36 @@ body{
   color:#64748b;
 }
 
-.department-card span{
+.department-card > span{
   color:#94a3b8;
   font-size:30px;
 }
 
 .dept-icon{
-  width:46px;
-  height:46px;
-  border-radius:14px;
-  background:#e8f1fb;
-  color:#0f4c81;
+  width:70px;
+  height:70px;
+  border-radius:18px;
+  background:#eef5ff;
   display:flex;
   align-items:center;
   justify-content:center;
-  font-weight:900;
-  font-size:18px;
+  overflow:hidden;
+  flex-shrink:0;
+}
+
+.dept-icon img{
+  width:56px;
+  height:56px;
+  max-width:56px;
+  max-height:56px;
+  object-fit:contain;
+  display:block;
+}
+
+.tray-icon{
+  font-size:30px;
+  font-weight:700;
+  color:#0f4c81;
 }
 
 .footer{
