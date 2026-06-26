@@ -272,3 +272,30 @@ body{
     flex-direction:column;
   }
 }
+
+.dept-icon{
+  width:58px;
+  height:58px;
+  border-radius:16px;
+  background:#eef5ff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  flex-shrink:0;
+}
+
+.dept-icon img{
+  width:42px;
+  height:42px;
+  max-width:42px;
+  max-height:42px;
+  object-fit:contain;
+  display:block;
+}
+
+.department-card img{
+  width:42px;
+  height:42px;
+  object-fit:contain;
+}
