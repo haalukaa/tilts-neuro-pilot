@@ -1,66 +1,93 @@
-<section class="department-list">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <a href="neuro.html" class="department-card">
-    <div class="dept-icon"><img src="brain.png" alt="Neurology"></div>
-    <div>
-      <h3>Neurology</h3>
-      <p>195 instruments</p>
-    </div>
-    <span>›</span>
+    <title>Royal Perth Hospital - TILTS</title>
+
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="apple-touch-icon" href="icon.png">
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="hero">
+  <h1>🏥 Royal Perth Hospital</h1>
+
+  <p>
+    Theatre Instrument Location <br>
+    & Tracking System
+  </p>
+
+  <div class="hero-line"></div>
+</header>
+
+<main class="container">
+
+<section class="dashboard">
+
+  <a href="neuro.html" class="tile neuro">
+    <div class="icon">🧠</div>
+    <h3>Neurology</h3>
+    <span>195 Instruments</span>
+    <p>Tap to Open →</p>
   </a>
 
-  <div class="department-card">
-    <div class="dept-icon"><img src="general.png" alt="General Surgery"></div>
-    <div>
-      <h3>General Surgery</h3>
-      <p>Coming soon</p>
-    </div>
-    <span>›</span>
+  <div class="tile general">
+    <div class="icon">🔪</div>
+    <h3>General Surgery</h3>
+    <span>0 Instruments</span>
+    <p>Coming Soon</p>
   </div>
 
-  <div class="department-card">
-    <div class="dept-icon"><img src="plastic.png" alt="Plastic Surgery"></div>
-    <div>
-      <h3>Plastic Surgery</h3>
-      <p>Coming soon</p>
-    </div>
-    <span>›</span>
+  <div class="tile plastic">
+    <div class="icon">🩹</div>
+    <h3>Plastic Surgery</h3>
+    <span>0 Instruments</span>
+    <p>Coming Soon</p>
   </div>
 
-  <div class="department-card">
-    <div class="dept-icon"><img src="eye.png" alt="Ophthalmology"></div>
-    <div>
-      <h3>Ophthalmology</h3>
-      <p>Coming soon</p>
-    </div>
-    <span>›</span>
+  <div class="tile eyes">
+    <div class="icon">👁️</div>
+    <h3>Ophthalmology</h3>
+    <span>0 Instruments</span>
+    <p>Coming Soon</p>
   </div>
 
-  <div class="department-card">
-    <div class="dept-icon"><img src="ent.png" alt="ENT"></div>
-    <div>
-      <h3>ENT</h3>
-      <p>Coming soon</p>
-    </div>
-    <span>›</span>
+  <div class="tile ent">
+    <div class="icon">👂</div>
+    <h3>ENT</h3>
+    <span>0 Instruments</span>
+    <p>Coming Soon</p>
   </div>
 
-  <div class="department-card">
-    <div class="dept-icon"><img src="ortho.png" alt="Orthopaedics"></div>
-    <div>
-      <h3>Orthopaedics</h3>
-      <p>Coming soon</p>
-    </div>
-    <span>›</span>
+  <div class="tile ortho">
+    <div class="icon">🦴</div>
+    <h3>Orthopaedics</h3>
+    <span>0 Instruments</span>
+    <p>Coming Soon</p>
   </div>
 
-  <div class="department-card">
-    <div class="dept-icon"><span class="tray-icon">T</span></div>
-    <div>
-      <h3>All Trays</h3>
-      <p>Coming soon</p>
-    </div>
-    <span>›</span>
+  <div class="tile trays">
+    <div class="icon">📦</div>
+    <h3>All Trays</h3>
+    <span>Browse All</span>
+    <p>Coming Soon</p>
   </div>
 
 </section>
+
+</main>
+
+<footer class="footer">
+  <p>© 2026 Haleluya Yilma. All Rights Reserved.</p>
+  <p><strong>TILTS – Theatre Instrument Location & Tracking System</strong></p>
+</footer>
+
+<script src="database.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
