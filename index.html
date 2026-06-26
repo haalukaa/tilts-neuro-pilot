@@ -1,98 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title> Royal Perth Hospital - TILTS</title>
+  <title>Royal Perth Hospital - TILTS</title>
 
-    <link rel="icon" type="image/png" href="icon.png">
-    <link rel="apple-touch-icon" href="icon.png">
-
-    <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-<header class="hero">
-  <h1> Royal Perth Hospital</h1>
-
-  <p>
-    Theatre Instrument Location <br>
-    & Tracking System
-  </p>
-
-  <div class="hero-line"></div>
+<header class="topbar">
+  <div>
+    <h1>Royal Perth Hospital</h1>
+    <p>Theatre Instrument Location & Tracking System</p>
+  </div>
+  <div class="app-badge">TILTS</div>
 </header>
 
-<main class="container">
-<section class="search-card home-search">
-  <h2>Search Any Instrument</h2>
+<main class="app">
 
-  <div class="search-row">
-    <input id="searchInput" type="text" placeholder="Search instrument, tray, shelf or location..." />
-    <button id="searchButton">Search</button>
-  </div>
-</section>
+  <section class="search-panel">
+    <label>Search instruments</label>
+    <div class="search-box">
+      <input id="searchInput" type="text" placeholder="Search by name, ID, shelf or location..." />
+      <button id="searchButton">Search</button>
+    </div>
+  </section>
 
-<section id="results" class="results"></section>
-<section class="dashboard">
+  <section id="results" class="results"></section>
 
-  <a href="neuro.html" class="tile neuro">
-    <div class="icon">🧠</div>
-    <h3>Neurology</h3>
-    <span>195 Instruments</span>
-    <p>Tap to Open →</p>
-  </a>
+  <section class="section-title">
+    <h2>Departments</h2>
+    <p>Select a speciality to search its instrument register.</p>
+  </section>
 
-  <div class="tile general">
-    <div class="icon">🩺</div>
-    <h3>General Surgery</h3>
-    <span>0 Instruments</span>
-    <p>Coming Soon</p>
-  </div>
+  <section class="department-list">
 
-  <div class="tile plastic">
-    <div class="icon">🩹</div>
-    <h3>Plastic Surgery</h3>
-    <span>0 Instruments</span>
-    <p>Coming Soon</p>
-  </div>
+    <a href="neuro.html" class="department-card">
+      <div class="dept-icon">N</div>
+      <div>
+        <h3>Neurology</h3>
+        <p>195 instruments</p>
+      </div>
+      <span>›</span>
+    </a>
 
-  <div class="tile eyes">
-    <div class="icon">👁️</div>
-    <h3>Ophthalmology</h3>
-    <span>0 Instruments</span>
-    <p>Coming Soon</p>
-  </div>
+    <div class="department-card">
+      <div class="dept-icon">G</div>
+      <div>
+        <h3>General Surgery</h3>
+        <p>Coming soon</p>
+      </div>
+      <span>›</span>
+    </div>
 
-  <div class="tile ent">
-    <div class="icon">👂</div>
-    <h3>ENT</h3>
-    <span>0 Instruments</span>
-    <p>Coming Soon</p>
-  </div>
+    <div class="department-card">
+      <div class="dept-icon">P</div>
+      <div>
+        <h3>Plastic Surgery</h3>
+        <p>Coming soon</p>
+      </div>
+      <span>›</span>
+    </div>
 
-  <div class="tile ortho">
-    <div class="icon">🦴</div>
-    <h3>Orthopaedics</h3>
-    <span>0 Instruments</span>
-    <p>Coming Soon</p>
-  </div>
+    <div class="department-card">
+      <div class="dept-icon">O</div>
+      <div>
+        <h3>Ophthalmology</h3>
+        <p>Coming soon</p>
+      </div>
+      <span>›</span>
+    </div>
 
-  <div class="tile trays">
-    <div class="icon">📦</div>
-    <h3>All Trays</h3>
-    <span>Browse All</span>
-    <p>Coming Soon</p>
-  </div>
+    <div class="department-card">
+      <div class="dept-icon">E</div>
+      <div>
+        <h3>ENT</h3>
+        <p>Coming soon</p>
+      </div>
+      <span>›</span>
+    </div>
 
-</section>
+    <div class="department-card">
+      <div class="dept-icon">B</div>
+      <div>
+        <h3>Orthopaedics</h3>
+        <p>Coming soon</p>
+      </div>
+      <span>›</span>
+    </div>
+
+    <div class="department-card">
+      <div class="dept-icon">T</div>
+      <div>
+        <h3>All Trays</h3>
+        <p>Coming soon</p>
+      </div>
+      <span>›</span>
+    </div>
+
+  </section>
 
 </main>
 
 <footer class="footer">
-  <p>© 2026 Haleluya Yilma. All Rights Reserved.</p>
-  <p><strong>TILTS – Theatre Instrument Location & Tracking System</strong></p>
+  <p>Prototype Version 1.0</p>
+  <p>Developed by Haleluya Yilma</p>
 </footer>
 
 <script src="database.js"></script>
