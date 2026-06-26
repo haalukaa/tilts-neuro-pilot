@@ -168,16 +168,25 @@ body{
 }
 
 .dept-icon{
-  width:46px;
-  height:46px;
-  border-radius:14px;
-  background:#e8f1fb;
-  color:#0f4c81;
+  width:58px;
+  height:58px;
+  border-radius:16px;
+  background:#eef5ff;
   display:flex;
   align-items:center;
   justify-content:center;
+  overflow:hidden;
+  border:1px solid #dbe7f5;
+  color:#0f4c81;
   font-weight:900;
-  font-size:18px;
+  font-size:20px;
+}
+
+.dept-icon img{
+  width:44px;
+  height:44px;
+  object-fit:contain;
+  display:block;
 }
 
 .footer{
