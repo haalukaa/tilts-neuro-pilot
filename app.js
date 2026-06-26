@@ -60,4 +60,3 @@ function runSearch() {
 searchInput.addEventListener("keyup", runSearch);
 searchButton.addEventListener("click", runSearch);
 
-displayResults(instruments);
