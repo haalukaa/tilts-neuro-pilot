@@ -10,61 +10,107 @@ body{
   color:#111827;
 }
 
-.topbar{
-  background:#ffffff;
+/* HERO BACKGROUND */
+.hero-header{
+  background-image:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,.94),
+      rgba(255,255,255,.72),
+      rgba(255,255,255,.20)
+    ),
+    url("instrument-bg.jpg");
+
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  min-height:330px;
   border-bottom:1px solid #e5e7eb;
-  padding:22px 18px;
+}
+
+.hero-overlay{
+  padding:26px 18px;
+}
+
+.topbar{
   display:flex;
-  align-items:center;
+  align-items:flex-start;
   justify-content:space-between;
   gap:15px;
 }
 
 .topbar h1{
-  font-size:24px;
+  font-size:34px;
   color:#0f172a;
-  margin-bottom:4px;
+  margin-bottom:6px;
+  font-weight:900;
+  line-height:1.1;
 }
 
 .topbar p{
-  font-size:14px;
-  color:#64748b;
+  font-size:16px;
+  color:#475569;
   line-height:1.4;
+  max-width:520px;
+  font-weight:600;
+}
+
+.hero-content{
+  margin-top:50px;
+}
+
+.hero-content h2{
+  font-size:38px;
+  color:#0f172a;
+  margin-bottom:10px;
+  font-weight:900;
+}
+
+.hero-content p{
+  font-size:17px;
+  color:#334155;
+  max-width:480px;
+  line-height:1.55;
+  font-weight:500;
 }
 
 .app-badge{
   background:#0f4c81;
   color:white;
-  font-weight:800;
-  padding:10px 14px;
-  border-radius:14px;
-  font-size:14px;
+  font-weight:900;
+  padding:13px 20px;
+  border-radius:16px;
+  font-size:16px;
+  box-shadow:0 8px 20px rgba(15,76,129,.22);
 }
 
 .app{
   width:92%;
-  max-width:850px;
-  margin:0 auto;
+  max-width:1100px;
+  margin:-55px auto 40px;
   padding:22px 0 40px;
+  position:relative;
+  z-index:2;
 }
 
 .search-panel{
-  background:white;
+  background:rgba(255,255,255,.96);
   border:1px solid #e5e7eb;
-  border-radius:18px;
-  padding:18px;
-  box-shadow:0 8px 20px rgba(15,23,42,.05);
-  margin-bottom:20px;
+  border-radius:22px;
+  padding:20px;
+  box-shadow:0 14px 30px rgba(15,23,42,.10);
+  margin-bottom:22px;
+  backdrop-filter:blur(10px);
 }
 
 .search-panel label{
   display:block;
   font-size:13px;
-  font-weight:800;
+  font-weight:900;
   color:#334155;
-  margin-bottom:10px;
+  margin-bottom:12px;
   text-transform:uppercase;
-  letter-spacing:.04em;
+  letter-spacing:.06em;
 }
 
 .search-box{
@@ -74,8 +120,8 @@ body{
 
 .search-box input{
   flex:1;
-  padding:15px;
-  border-radius:12px;
+  padding:16px;
+  border-radius:14px;
   border:1px solid #d1d5db;
   background:#f9fafb;
   font-size:16px;
@@ -85,9 +131,9 @@ body{
   background:#0f4c81;
   color:white;
   border:none;
-  border-radius:12px;
-  padding:15px 18px;
-  font-weight:800;
+  border-radius:14px;
+  padding:16px 22px;
+  font-weight:900;
   cursor:pointer;
 }
 
@@ -119,52 +165,56 @@ body{
 }
 
 .section-title{
-  margin:24px 0 12px;
+  margin:26px 0 14px;
 }
 
 .section-title h2{
-  font-size:21px;
+  font-size:26px;
   color:#0f172a;
-  margin-bottom:4px;
+  margin-bottom:5px;
+  font-weight:900;
 }
 
 .section-title p{
-  font-size:14px;
+  font-size:16px;
   color:#64748b;
+  font-weight:600;
 }
 
 .department-list{
   display:grid;
-  gap:10px;
+  gap:14px;
 }
 
 .department-card{
   background:white;
   border:1px solid #e5e7eb;
-  border-radius:16px;
-  padding:15px;
+  border-radius:22px;
+  padding:18px;
   display:grid;
   grid-template-columns:70px 1fr 24px;
   align-items:center;
-  gap:14px;
+  gap:16px;
   text-decoration:none;
   color:#111827;
-  box-shadow:0 5px 14px rgba(15,23,42,.04);
+  box-shadow:0 8px 20px rgba(15,23,42,.06);
 }
 
 .department-card h3{
-  font-size:17px;
-  margin-bottom:3px;
+  font-size:21px;
+  margin-bottom:4px;
+  font-weight:900;
 }
 
 .department-card p{
-  font-size:14px;
+  font-size:16px;
   color:#64748b;
+  font-weight:600;
 }
 
 .department-card > span{
   color:#94a3b8;
-  font-size:30px;
+  font-size:34px;
 }
 
 .dept-icon{
@@ -253,16 +303,44 @@ body{
 }
 
 @media(max-width:600px){
-  .topbar{
-    align-items:flex-start;
+  .hero-header{
+    min-height:300px;
+    background-position:center top;
+  }
+
+  .hero-overlay{
+    padding:24px 18px;
   }
 
   .topbar h1{
-    font-size:22px;
+    font-size:25px;
+  }
+
+  .topbar p{
+    font-size:14px;
+  }
+
+  .app-badge{
+    padding:11px 16px;
+    font-size:14px;
+  }
+
+  .hero-content{
+    margin-top:38px;
+  }
+
+  .hero-content h2{
+    font-size:32px;
+  }
+
+  .hero-content p{
+    font-size:15px;
+    max-width:300px;
   }
 
   .app{
     width:92%;
+    margin-top:-45px;
   }
 
   .search-box{
@@ -275,5 +353,9 @@ body{
 
   .search-row{
     flex-direction:column;
+  }
+
+  .department-card{
+    grid-template-columns:70px 1fr 24px;
   }
 }
