@@ -6,35 +6,44 @@
 }
 
 body {
-  background: #eef4fb;
+  background: linear-gradient(180deg, #eaf3ff, #f8fafc);
   color: #0f172a;
 }
 
 .hero {
-  background: linear-gradient(135deg, #063b8e, #1976d2);
+  background: linear-gradient(135deg, #062b63, #1565c0, #38bdf8);
   color: white;
   text-align: center;
-  padding: 55px 20px 45px;
-  box-shadow: 0 8px 25px rgba(0,0,0,.18);
+  padding: 70px 20px 95px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.25);
 }
 
 .hero h1 {
-  font-size: 54px;
-  letter-spacing: 3px;
-  margin-bottom: 12px;
+  font-size: 46px;
+  margin-bottom: 14px;
+  text-shadow: 0 4px 12px rgba(0,0,0,.35);
 }
 
 .hero p {
-  font-size: 20px;
-  line-height: 1.35;
+  font-size: 22px;
+  line-height: 1.4;
   opacity: .95;
+}
+
+.hero-line {
+  width: 210px;
+  height: 4px;
+  background: white;
+  margin: 28px auto 0;
+  border-radius: 999px;
+  opacity: .9;
 }
 
 .container {
   width: 92%;
-  max-width: 1200px;
-  margin: auto;
-  padding: 28px 0 40px;
+  max-width: 1150px;
+  margin: -55px auto 0;
+  padding-bottom: 40px;
 }
 
 .dashboard {
@@ -44,9 +53,9 @@ body {
 }
 
 .tile {
-  min-height: 190px;
-  border-radius: 24px;
-  padding: 26px 20px;
+  min-height: 205px;
+  border-radius: 28px;
+  padding: 28px 22px;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -54,57 +63,74 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 12px 28px rgba(15,23,42,.18);
+  box-shadow: 0 18px 35px rgba(15, 23, 42, 0.22);
   transition: .25s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.tile::after {
+  content: "";
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.12);
+  top: -45px;
+  right: -45px;
 }
 
 .tile:hover {
-  transform: translateY(-6px);
+  transform: translateY(-7px);
 }
 
 .icon {
-  font-size: 44px;
-  margin-bottom: 12px;
+  font-size: 48px;
+  margin-bottom: 14px;
+  z-index: 1;
 }
 
 .tile h3 {
-  font-size: 28px;
+  font-size: 29px;
   margin-bottom: 10px;
+  z-index: 1;
 }
 
 .tile span {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 8px;
+  z-index: 1;
 }
 
 .tile p {
   font-size: 16px;
   opacity: .95;
+  z-index: 1;
 }
 
 .neuro {
-  background: linear-gradient(135deg, #4338ca, #6366f1);
+  background: linear-gradient(135deg, #312e81, #6366f1);
 }
 
 .general {
-  background: linear-gradient(135deg, #0f5bd8, #2563eb);
+  background: linear-gradient(135deg, #0f4bb8, #2563eb);
 }
 
 .plastic {
-  background: linear-gradient(135deg, #db2777, #ec4899);
+  background: linear-gradient(135deg, #be185d, #ec4899);
 }
 
 .eyes {
-  background: linear-gradient(135deg, #0891b2, #06b6d4);
+  background: linear-gradient(135deg, #087990, #06b6d4);
 }
 
 .ent {
-  background: linear-gradient(135deg, #059669, #10b981);
+  background: linear-gradient(135deg, #047857, #10b981);
 }
 
 .ortho {
-  background: linear-gradient(135deg, #ea580c, #f97316);
+  background: linear-gradient(135deg, #c2410c, #f97316);
 }
 
 .trays {
@@ -114,15 +140,14 @@ body {
 .search-card {
   background: white;
   border-radius: 24px;
-  padding: 26px;
+  padding: 28px;
   margin-top: 25px;
-  box-shadow: 0 10px 25px rgba(15,23,42,.10);
+  box-shadow: 0 12px 28px rgba(15,23,42,.12);
 }
 
 .search-card h2 {
   margin-bottom: 18px;
   font-size: 28px;
-  color: #0f172a;
 }
 
 .search-row {
@@ -146,7 +171,6 @@ body {
   padding: 17px 28px;
   font-size: 16px;
   font-weight: bold;
-  cursor: pointer;
 }
 
 .results {
@@ -183,27 +207,39 @@ body {
   font-size: 17px;
 }
 
-@media (max-width: 600px) {
-  .container {
-    width: 94%;
-    padding-top: 26px;
-  }
+.footer {
+  text-align: center;
+  padding: 30px 20px;
+  color: #64748b;
+  font-size: 14px;
+  background: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+}
 
+.footer p {
+  margin: 6px 0;
+}
+
+@media (max-width: 600px) {
   .hero {
-    padding: 58px 20px 42px;
+    padding: 62px 18px 90px;
   }
 
   .hero h1 {
-    font-size: 58px;
+    font-size: 39px;
   }
 
   .hero p {
-    font-size: 21px;
+    font-size: 20px;
+  }
+
+  .container {
+    width: 92%;
+    margin-top: -50px;
   }
 
   .dashboard {
     grid-template-columns: 1fr;
-    gap: 22px;
   }
 
   .tile {
@@ -213,31 +249,4 @@ body {
   .search-row {
     flex-direction: column;
   }
-
-  .search-row button {
-    width: 100%;
-  }
 }
-
-.hero-line{
-    width:180px;
-    height:4px;
-    background:white;
-    margin:22px auto 0;
-    border-radius:50px;
-    opacity:.85;
-}
-
-.footer{
-    text-align:center;
-    padding:30px 20px;
-    color:#64748b;
-    font-size:14px;
-    background:#f8fafc;
-    border-top:1px solid #e2e8f0;
-}
-
-.footer p{
-    margin:6px 0;
-}
-
