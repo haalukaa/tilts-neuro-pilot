@@ -364,3 +364,27 @@ body{
     grid-template-columns:70px 1fr 24px;
   }
 }
+
+.hero-header{
+  min-height:250px !important;
+}
+
+.hero-content{
+  margin-top:20px !important;
+}
+
+.hero-content h2{
+  font-size:28px !important;
+  line-height:1.12 !important;
+  margin-bottom:10px !important;
+}
+
+.hero-content p{
+  font-size:15px !important;
+  line-height:1.4 !important;
+  max-width:340px !important;
+}
+
+.app{
+  margin-top:-35px !important;
+}
