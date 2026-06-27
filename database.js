@@ -78,4 +78,11 @@ const instruments = [
 {"id":"NEU-0077","name":"Forceps Non-Toothed Yasargil","specialty":"Neuro-Surgical Equipment","shelf":"7","location":"59","area":"Main Neuro Shelves","status":"Available"},
 {"id":"NEU-0078","name":"Forceps Non-Toothed Micro","specialty":"Neuro-Surgical Equipment","shelf":"8","location":"64","area":"Main Neuro Shelves","status":"Available"},
 {"id":"NEU-0079","name":"Forceps Toothed Adson","specialty":"Neuro-Surgical Equipment","shelf":"7","location":"58","area":"Main Neuro Shelves","status":"Available"},
-{"id":"NEU-0080","name":"Forceps Toothed Bayonet","specialty":"Neuro-Surgical Equipment","shelf":"7","location":"58","area":"Main Neuro Shelves","status":"Available"},]
+{"id":"NEU-0080","name":"Forceps Toothed Bayonet","specialty":"Neuro-Surgical Equipment","shelf":"7","location":"58","area":"Main Neuro Shelves","status":"Available"}
+,
+{"id":"GEN-0001","name":"Aarons Cone (Hydatid Funnel)","specialty":"General Surgery","shelf":"K","row":"1","location":"62","area":"General Surgery Shelves","status":"Available"},
+{"id":"GEN-0002","name":"Absorba Tack","specialty":"General Surgery","shelf":"O","row":"1","location":"232","area":"General Surgery Shelves","status":"Available"},
+{"id":"GEN-0003","name":"Adson Forceps - Toothed","specialty":"General Surgery","shelf":"K","row":"2","location":"99","area":"General Surgery Shelves","status":"Available"},
+{"id":"GEN-0004","name":"Adson Forceps - Non Toothed","specialty":"General Surgery","shelf":"K","row":"2","location":"99","area":"General Surgery Shelves","status":"Available"},
+{"id":"GEN-0005","name":"Adson Sucker 12F","specialty":"General Surgery","shelf":"K","row":"4","location":"123","area":"General Surgery Shelves","status":"Available"}
+]
