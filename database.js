@@ -100,5 +100,27 @@ const instruments = [
 {"id":"GEN-0017","name":"Bowel Clamp","specialty":"General Surgery","shelf":"K","row":"4","location":"121","area":"General Surgery","status":"Available"},
 {"id":"GEN-0018","name":"Bowel Scissors","specialty":"General Surgery","shelf":"K","row":"4","location":"121","area":"General Surgery","status":"Available"},
 {"id":"GEN-0019","name":"Brophy Dressing Forceps","specialty":"General Surgery","shelf":"K","row":"2","location":"100","area":"General Surgery","status":"Available"},
-{"id":"GEN-0020","name":"Cooley Clamp","specialty":"General Surgery","shelf":"K","row":"1","location":"64","area":"General Surgery","status":"Available"},]
+{"id":"GEN-0020","name":"Cooley Clamp","specialty":"General Surgery","shelf":"K","row":"1","location":"64","area":"General Surgery","status":"Available"},
+,
+{"id":"GEN-0021","name":"Debakey Clamp","specialty":"General Surgery","shelf":"K","row":"1","location":"64","area":"General Surgery","status":"Available"},
+{"id":"GEN-0022","name":"Statinsky Clamp","specialty":"General Surgery","shelf":"K","row":"1","location":"64","area":"General Surgery","status":"Available"},
+{"id":"GEN-0023","name":"Straight Glover Clamp","specialty":"General Surgery","shelf":"K","row":"1","location":"64","area":"General Surgery","status":"Available"},
+{"id":"GEN-0024","name":"Wylie Clamp","specialty":"General Surgery","shelf":"K","row":"1","location":"64","area":"General Surgery","status":"Available"},
+{"id":"GEN-0025","name":"Veraseal 2mL","specialty":"General Surgery","shelf":"East Prep","row":"Freezer","location":"Freezer","area":"General Surgery","status":"Available"},
+{"id":"GEN-0026","name":"Veraseal 4mL","specialty":"General Surgery","shelf":"East Prep","row":"Freezer","location":"Freezer","area":"General Surgery","status":"Available"},
+{"id":"GEN-0027","name":"Veraseal 10mL","specialty":"General Surgery","shelf":"East Prep","row":"Freezer","location":"Freezer","area":"General Surgery","status":"Available"},
+{"id":"GEN-0028","name":"Veraseal Laparoscopic Dual Applicator","specialty":"General Surgery","shelf":"O.1","row":"1","location":"197","area":"General Surgery","status":"Available"},
+{"id":"GEN-0029","name":"Veraseal Open Applicator","specialty":"General Surgery","shelf":"O.1","row":"1","location":"197","area":"General Surgery","status":"Available"},
+{"id":"GEN-0030","name":"Veress Needle (Disposable)","specialty":"General Surgery","shelf":"F","row":"2","location":"31","area":"General Surgery","status":"Available"},
+{"id":"GEN-0031","name":"Veress Needle (Non-Disposable)","specialty":"General Surgery","shelf":"F","row":"2","location":"25-26","area":"General Surgery","status":"Available"},
+{"id":"GEN-0032","name":"Volkman Retractors - Murphy Rakes","specialty":"General Surgery","shelf":"L","row":"1","location":"35","area":"General Surgery","status":"Available"},
+{"id":"GEN-0033","name":"Ultrasound Probe Cover","specialty":"General Surgery","shelf":"E","row":"3","location":"","area":"General Surgery","status":"Available"},
+{"id":"GEN-0034","name":"Ultrasound Probe - Laparoscopic","specialty":"General Surgery","shelf":"E","row":"3","location":"","area":"General Surgery","status":"Available"},
+{"id":"GEN-0035","name":"Ultrasound Probe - BK T Shaped Handle","specialty":"General Surgery","shelf":"TSSU Supervisor","row":"","location":"Shelf","area":"General Surgery","status":"Available"},
+{"id":"GEN-0036","name":"Ultrasound Probe - BK Mini T Handle","specialty":"General Surgery","shelf":"TSSU Supervisor","row":"","location":"Shelf","area":"General Surgery","status":"Available"},
+{"id":"GEN-0037","name":"Ultrasound Probe - BK Curved Linear","specialty":"General Surgery","shelf":"TSSU Supervisor","row":"","location":"Shelf","area":"General Surgery","status":"Available"},
+{"id":"GEN-0038","name":"Ultrasound Probe - BK Laparoscopic","specialty":"General Surgery","shelf":"TSSU Supervisor","row":"","location":"Shelf","area":"General Surgery","status":"Available"},
+{"id":"GEN-0039","name":"Ultrapro Mesh 10x6cm","specialty":"General Surgery","shelf":"Wall Shelves","row":"","location":"Outside TH7","area":"General Surgery","status":"Available"},
+{"id":"GEN-0040","name":"Ultrapro Mesh 15x15cm","specialty":"General Surgery","shelf":"Wall Shelves","row":"","location":"Outside TH7","area":"General Surgery","status":"Available"},]
+
 
