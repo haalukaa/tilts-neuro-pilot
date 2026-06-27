@@ -84,5 +84,21 @@ const instruments = [
 {"id":"GEN-0002","name":"Absorba Tack","specialty":"General Surgery","shelf":"O","row":"1","location":"232","area":"General Surgery Shelves","status":"Available"},
 {"id":"GEN-0003","name":"Adson Forceps - Toothed","specialty":"General Surgery","shelf":"K","row":"2","location":"99","area":"General Surgery Shelves","status":"Available"},
 {"id":"GEN-0004","name":"Adson Forceps - Non Toothed","specialty":"General Surgery","shelf":"K","row":"2","location":"99","area":"General Surgery Shelves","status":"Available"},
-{"id":"GEN-0005","name":"Adson Sucker 12F","specialty":"General Surgery","shelf":"K","row":"4","location":"123","area":"General Surgery Shelves","status":"Available"}
-]
+{"id":"GEN-0005","name":"Adson Sucker 12F","specialty":"General Surgery","shelf":"K","row":"4","location":"123","area":"General Surgery Shelves","status":"Available"} ,
+,
+{"id":"GEN-0006","name":"Adson Sucker 18F","specialty":"General Surgery","shelf":"K","row":"1","location":"82","area":"General Surgery","status":"Available"},
+{"id":"GEN-0007","name":"Allis Tissue Forceps","specialty":"General Surgery","shelf":"K","row":"2","location":"96","area":"General Surgery","status":"Available"},
+{"id":"GEN-0008","name":"Amputation Saw","specialty":"General Surgery","shelf":"F","row":"1","location":"22","area":"General Surgery","status":"Available"},
+{"id":"GEN-0009","name":"Applied Medical Laparoscopic Scissors","specialty":"General Surgery","shelf":"N","row":"3","location":"151","area":"General Surgery","status":"Available"},
+{"id":"GEN-0010","name":"Assistants Scissors","specialty":"General Surgery","shelf":"K","row":"2","location":"94","area":"General Surgery","status":"Available"},
+{"id":"GEN-0011","name":"Babcock Forceps","specialty":"General Surgery","shelf":"K","row":"2","location":"97","area":"General Surgery","status":"Available"},
+{"id":"GEN-0012","name":"Bainbridge Forceps","specialty":"General Surgery","shelf":"K","row":"2","location":"98","area":"General Surgery","status":"Available"},
+{"id":"GEN-0013","name":"Bengolea Forceps","specialty":"General Surgery","shelf":"K","row":"2","location":"99","area":"General Surgery","status":"Available"},
+{"id":"GEN-0014","name":"Bipolar Forceps","specialty":"General Surgery","shelf":"K","row":"2","location":"100","area":"General Surgery","status":"Available"},
+{"id":"GEN-0015","name":"Bone Cutter","specialty":"General Surgery","shelf":"K","row":"3","location":"104","area":"General Surgery","status":"Available"},
+{"id":"GEN-0016","name":"Bone Holding Forceps","specialty":"General Surgery","shelf":"K","row":"3","location":"104","area":"General Surgery","status":"Available"},
+{"id":"GEN-0017","name":"Bowel Clamp","specialty":"General Surgery","shelf":"K","row":"4","location":"121","area":"General Surgery","status":"Available"},
+{"id":"GEN-0018","name":"Bowel Scissors","specialty":"General Surgery","shelf":"K","row":"4","location":"121","area":"General Surgery","status":"Available"},
+{"id":"GEN-0019","name":"Brophy Dressing Forceps","specialty":"General Surgery","shelf":"K","row":"2","location":"100","area":"General Surgery","status":"Available"},
+{"id":"GEN-0020","name":"Cooley Clamp","specialty":"General Surgery","shelf":"K","row":"1","location":"64","area":"General Surgery","status":"Available"},]
+
